@@ -1,3 +1,1 @@
-if (!bullet_fired) {
-	fireBullet();
-}
+fireBullet();
