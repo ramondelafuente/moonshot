@@ -1,2 +1,2 @@
 instance_destroy(other.id);
-instance_destroy(id);
+destroyBullet(id);
