@@ -2,12 +2,12 @@
   "resources": [
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":2,},
     {"id":{"name":"fnt_arial","path":"fonts/fnt_arial/fnt_arial.yy",},"order":0,},
-    {"id":{"name":"Controller","path":"objects/Controller/Controller.yy",},"order":4,},
     {"id":{"name":"bulletActions","path":"scripts/bulletActions/bulletActions.yy",},"order":0,},
     {"id":{"name":"Dot","path":"objects/Dot/Dot.yy",},"order":3,},
     {"id":{"name":"MainMenuScreen","path":"rooms/MainMenuScreen/MainMenuScreen.yy",},"order":1,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"levelGenerationActions","path":"scripts/levelGenerationActions/levelGenerationActions.yy",},"order":1,},
     {"id":{"name":"obj_alien","path":"objects/obj_alien/obj_alien.yy",},"order":5,},
     {"id":{"name":"TextWindow","path":"objects/TextWindow/TextWindow.yy",},"order":2,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
