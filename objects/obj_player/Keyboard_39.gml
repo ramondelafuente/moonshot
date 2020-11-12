@@ -1,1 +1,3 @@
-x = x + 4;
+if (x + sprite_width <= room_width) then {
+	x = x + 4;
+}
