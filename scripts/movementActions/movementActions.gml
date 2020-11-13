@@ -1,12 +1,8 @@
-function moveAliens() {
-	for (alien=0; alien<array_length(global.aliens); alien++) {
-		var alienObject = global.aliens[alien];
-		
-		alienObject.x += 1;
+function moveAlien(alien) {
+	if (global.gameOver) {
+		return;
 	}
-}
 
-function moveAlien(alien) {		
 	// change movement direction
 	if (global.movementDirection == "left") {
 		alien.x -= global.movementSpeed;

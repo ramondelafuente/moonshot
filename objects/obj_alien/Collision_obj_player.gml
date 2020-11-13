@@ -1,1 +1,3 @@
-show_debug_message("HIT");
+/// @description Ends game when alien hits player
+
+global.gameOver = 1;
