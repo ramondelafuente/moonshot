@@ -15,6 +15,7 @@
     {"id":{"name":"obj_alien","path":"objects/obj_alien/obj_alien.yy",},"order":5,},
     {"id":{"name":"TextWindow","path":"objects/TextWindow/TextWindow.yy",},"order":2,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"ctrl_game","path":"objects/ctrl_game/ctrl_game.yy",},"order":7,},
     {"id":{"name":"GameScreen","path":"rooms/GameScreen/GameScreen.yy",},"order":0,},
   ],
   "Options": [
