@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"alien_hit","path":"sounds/alien_hit/alien_hit.yy",},"order":1,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":2,},
     {"id":{"name":"fnt_arial","path":"fonts/fnt_arial/fnt_arial.yy",},"order":0,},
     {"id":{"name":"bulletActions","path":"scripts/bulletActions/bulletActions.yy",},"order":0,},
