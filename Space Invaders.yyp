@@ -5,7 +5,7 @@
     {"id":{"name":"obj_lose","path":"objects/obj_lose/obj_lose.yy",},"order":7,},
     {"id":{"name":"fnt_arial","path":"fonts/fnt_arial/fnt_arial.yy",},"order":0,},
     {"id":{"name":"bulletActions","path":"scripts/bulletActions/bulletActions.yy",},"order":0,},
-    {"id":{"name":"Dot","path":"objects/Dot/Dot.yy",},"order":3,},
+    {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":3,},
     {"id":{"name":"MainMenuScreen","path":"rooms/MainMenuScreen/MainMenuScreen.yy",},"order":1,},
     {"id":{"name":"assert","path":"scripts/assert/assert.yy",},"order":0,},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
