@@ -18,25 +18,38 @@ function destroyBullet(bulletId) {
 
 #region UnitTests
 function test_bullet_actions() {
-  test_describe("bullet_actions", function() {
 
-    test_before_each(function() {
-      instance_create_depth(0, 0, 0, obj_player);
-    });
+test_describe("bullet_actions", function() {
 
-    test_after_each(function() {
-      instance_destroy(obj_player);
-    });
+	test_before_each(function() {
+		instance_create_depth(0, 0, 0, obj_player);
+	});
 
-    test_it("Fires a bullet", function() {
+	test_after_each(function() {
+		instance_destroy(obj_player);
+		instance_destroy(Dot);
+	});
 
-	  // Act
-	  fireBullet();
+	test_it("Fires a bullet", function() {
+		// Act
+		fireBullet();
 
-	  // Assert
-      assert_exists(Dot);
-    });
+		// Assert
+		assert_is_true(obj_player.bullet_fired);
+		assert_exists(Dot);
+	});
 
-  });
+	test_it("Does not fires a bullet twice", function() {
+		// Arrange
+		obj_player.bullet_fired = true;
+
+		// Act
+		fireBullet();
+
+		// Assert
+		assert_does_not_exist(Dot);
+	});
+
+});
 }
 #endregion
