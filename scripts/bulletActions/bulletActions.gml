@@ -5,11 +5,7 @@ function fireBullet() {
 
 	if (!obj_player.bullet_fired) {
 		var inst = instance_create_layer(x - 32, y - 64, "Instances", Dot);
-		inst.depth += 1;
 		obj_player.bullet_fired = true;
-		audio_play_sound(pew, 1, 0);
-
-		show_debug_message("bullet fired");
 	}
 }
 
