@@ -23,6 +23,7 @@
     {"isDnD":false,"eventNum":82,"eventType":9,"collisionObjectId":null,"parent":{"name":"ctrl_game","path":"objects/ctrl_game/ctrl_game.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":17,"eventType":9,"collisionObjectId":null,"parent":{"name":"ctrl_game","path":"objects/ctrl_game/ctrl_game.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":27,"eventType":9,"collisionObjectId":null,"parent":{"name":"ctrl_game","path":"objects/ctrl_game/ctrl_game.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":84,"eventType":9,"collisionObjectId":null,"parent":{"name":"ctrl_game","path":"objects/ctrl_game/ctrl_game.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
