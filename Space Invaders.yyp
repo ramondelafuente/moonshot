@@ -6,6 +6,7 @@
     {"id":{"name":"fnt_arial","path":"fonts/fnt_arial/fnt_arial.yy",},"order":0,},
     {"id":{"name":"spr_alien_2","path":"sprites/spr_alien_2/spr_alien_2.yy",},"order":4,},
     {"id":{"name":"bulletActions","path":"scripts/bulletActions/bulletActions.yy",},"order":0,},
+    {"id":{"name":"EventBus","path":"scripts/EventBus/EventBus.yy",},"order":1,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":3,},
     {"id":{"name":"MainMenuScreen","path":"rooms/MainMenuScreen/MainMenuScreen.yy",},"order":1,},
     {"id":{"name":"assert","path":"scripts/assert/assert.yy",},"order":0,},
@@ -24,6 +25,7 @@
     {"id":{"name":"TextWindow","path":"objects/TextWindow/TextWindow.yy",},"order":2,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"ctrl_game","path":"objects/ctrl_game/ctrl_game.yy",},"order":7,},
+    {"id":{"name":"EventTypes","path":"scripts/EventTypes/EventTypes.yy",},"order":2,},
     {"id":{"name":"GameScreen","path":"rooms/GameScreen/GameScreen.yy",},"order":0,},
   ],
   "Options": [
@@ -59,6 +61,7 @@
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Player.yy","order":1,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/EventBus.yy","order":3,"resourceVersion":"1.0","name":"EventBus","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/gmtest.yy","order":3,"resourceVersion":"1.0","name":"gmtest","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
