@@ -1,14 +1,16 @@
 {
   "resources": [
     {"id":{"name":"alien_hit","path":"sounds/alien_hit/alien_hit.yy",},"order":1,},
-    {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":2,},
+    {"id":{"name":"spr_alien_1","path":"sprites/spr_alien_1/spr_alien_1.yy",},"order":3,},
     {"id":{"name":"obj_lose","path":"objects/obj_lose/obj_lose.yy",},"order":7,},
     {"id":{"name":"fnt_arial","path":"fonts/fnt_arial/fnt_arial.yy",},"order":0,},
+    {"id":{"name":"spr_alien_2","path":"sprites/spr_alien_2/spr_alien_2.yy",},"order":4,},
     {"id":{"name":"bulletActions","path":"scripts/bulletActions/bulletActions.yy",},"order":0,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":3,},
     {"id":{"name":"MainMenuScreen","path":"rooms/MainMenuScreen/MainMenuScreen.yy",},"order":1,},
     {"id":{"name":"assert","path":"scripts/assert/assert.yy",},"order":0,},
-    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":1,},
+    {"id":{"name":"spr_alien_3","path":"sprites/spr_alien_3/spr_alien_3.yy",},"order":5,},
+    {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":1,},
     {"id":{"name":"AlienController","path":"objects/AlienController/AlienController.yy",},"order":6,},
     {"id":{"name":"loss","path":"sounds/loss/loss.yy",},"order":2,},
     {"id":{"name":"win","path":"sounds/win/win.yy",},"order":3,},
