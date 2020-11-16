@@ -14,7 +14,6 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":704.0,"resourceVersion":"1.0","name":"inst_3697A32F","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"AlienController","path":"objects/AlienController/AlienController.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":800.0,"resourceVersion":"1.0","name":"inst_43F6FFA2","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_lose","path":"objects/obj_lose/obj_lose.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":800.0,"resourceVersion":"1.0","name":"inst_2A2F405E","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ctrl_game","path":"objects/ctrl_game/ctrl_game.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":800.0,"resourceVersion":"1.0","name":"inst_2FF5D4E","tags":[],"resourceType":"GMRInstance",},
@@ -25,7 +24,6 @@
   "creationCodeFile": "${project_dir}/rooms/GameScreen/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_3697A32F","path":"rooms/GameScreen/GameScreen.yy",},
     {"name":"inst_43F6FFA2","path":"rooms/GameScreen/GameScreen.yy",},
     {"name":"inst_2A2F405E","path":"rooms/GameScreen/GameScreen.yy",},
     {"name":"inst_2FF5D4E","path":"rooms/GameScreen/GameScreen.yy",},

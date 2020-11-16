@@ -6,3 +6,5 @@ global.adjustedHeightStep = 32;
 global.gameOver = 0;
 
 generateAliens(192, 64, 5, 11);
+
+generatePlayer(3);
