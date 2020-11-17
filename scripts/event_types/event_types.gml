@@ -4,5 +4,5 @@ enum eventTypes {
 
 function BulletHitEvent(_bulletId) constructor {
 	name = eventTypes.BulletHitEvent;
-	bulletId = bulletId;
+	bulletId = _bulletId;
 }
