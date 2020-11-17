@@ -19,11 +19,11 @@ function EventBus() constructor {
 		}
 	}
 	
-	emit = function(event, data) {
+	emit = function(event) {
 		for (var index = 0; index < ds_list_size(events); index++) {
 			var evnt = ds_list_find_value(events, index);
-			if (evnt.name == event) {
-				evnt.func(data);
+			if (evnt.name == event.name) {
+				evnt.func(event);
 			}
 		}		
 	}
