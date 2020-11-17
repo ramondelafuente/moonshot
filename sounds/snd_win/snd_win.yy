@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "win.mp3",
+  "soundFile": "snd_win.mp3",
   "duration": 4.106224,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "win",
+  "name": "snd_win",
   "tags": [],
   "resourceType": "GMSound",
 }
