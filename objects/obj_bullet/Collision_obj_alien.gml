@@ -1,3 +1,4 @@
+global.eventBus.emit(new BulletHitEvent(id));
 part_particles_create(global.P_System, x, y, global.Particle1, 50);
 instance_destroy(other.id);
 destroyBullet(id);

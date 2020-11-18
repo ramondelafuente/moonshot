@@ -35,22 +35,24 @@ All events should be defined in scripts/event_bus/event_types
 1. Add your event to the eventTypes enum
 
 ```
-enum eventTypes = {
-	BulletHitEvent = "BulletHit";
+enum eventTypes {
+	BulletHitEvent = 1
 }
 ```
 
-2. Create your event struct based on the following template
+(enums need to be made out of integers or reals, strings are not allowed)
+
+2. Create your event struct based on the following template ('name' is a mandatory property):
 
 ```
-EventName = function (_parameter1, _anotherParameter) constructor {
+function EventName(_parameter1, _anotherParameter) constructor {
 	name = eventTypes.SomeEntry;
 	property = _parameter1;
 	anotherProperty = _anotherParameter;
 }
 
 Example:
-BulletHitEvent = function(_bulletId) constructor {
+function BulletHitEvent(_bulletId) constructor {
 	name = eventTypes.BulletHitEvent;
 	bulletId = _bulletId;
 }
