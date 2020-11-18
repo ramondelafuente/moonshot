@@ -1,5 +1,6 @@
 // Register all the test suites
 test_bullet_actions();
+test_event_types();
 test_eventbus();
 test_level_generation_actions();
 
