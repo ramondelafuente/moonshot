@@ -1,3 +1,4 @@
+global.pSystem = part_system_create_layer(layer, true);
 global.particle1 = part_type_create();
 part_type_shape(global.particle1, pt_shape_explosion);
 part_type_size(global.particle1, 0.01, 0.05, 0.05, 0.5);
