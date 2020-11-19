@@ -3,15 +3,15 @@ function fireBullet() {
 		return;
 	}
 
-	if (!obj_player.bullet_fired) {
-		var inst = instance_create_layer(x - 32, y - 64, "Instances", obj_bullet);
-		obj_player.bullet_fired = true;
+	if (!obj_player.bulletFired) {
+		instance_create_layer(x - 32, y - 64, "Instances", obj_bullet);
+		obj_player.bulletFired = true;
 	}
 }
 
 function destroyBullet(bulletId) {
 	instance_destroy(bulletId);
-	obj_player.bullet_fired = false;
+	obj_player.bulletFired = false;
 
 	show_debug_message("bullet destroyed");
 }
@@ -35,13 +35,13 @@ test_describe("bullet_actions", function() {
 		fireBullet();
 
 		// Assert
-		assert_is_true(obj_player.bullet_fired);
+		assert_is_true(obj_player.bulletFired);
 		assert_exists(obj_bullet);
 	});
 
 	test_it("Does not fires a bullet twice", function() {
 		// Arrange
-		obj_player.bullet_fired = true;
+		obj_player.bulletFired = true;
 
 		// Act
 		fireBullet();

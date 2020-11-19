@@ -21,8 +21,8 @@ function moveAlien(alien) {
 	}
 	
 	// change movement height
-	if (global.alienSteps != alien.movement_steps) {
-		alien.movement_steps += 1;
+	if (global.alienSteps != alien.movementSteps) {
+		alien.movementSteps += 1;
 		
 		alien.y = alien.y + global.adjustedHeightStep;
 	}
