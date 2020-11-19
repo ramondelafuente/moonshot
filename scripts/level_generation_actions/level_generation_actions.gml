@@ -11,9 +11,9 @@ function generateAliens(startX, startY, amountOfRows, amountOfColumns) {
 	}
 }
 
-function generatePlayer(lives_left) {
+function generatePlayer(livesLeft) {
 	player = instance_create_layer(640, 704, "Instances", obj_player);
-	player.lives_left = lives_left;
+	player.livesLeft = livesLeft;
 }
 
 
@@ -32,7 +32,7 @@ test_describe("generate_player_actions", function() {
 
 		// Assert
 		assert_exists(obj_player);
-		assert_equal(1337, obj_player.lives_left, "Incorrect number of lives set on the player");
+		assert_equal(1337, obj_player.livesLeft, "Incorrect number of lives set on the player");
 	});
 
 });
