@@ -11,15 +11,3 @@ function MenuButton(_xPos, _yPos, _bWidth, _bHeight, _text, _action) constructor
 	menuButton.x = _xPos;
 	menuButton.y = _yPos;
 }
-
-function buttonFunctionEndGame() {
-	game_end();
-}
-
-function buttonFunctionPlayGame() {
-	room_goto(GameScreen);	
-}
-
-function buttonFunctionRunTests() {
-	room_goto(UnitTests);	
-}
