@@ -14,5 +14,9 @@ generatePlayer(3);
 randomize();
 audioFile = choose("trk_bounce.ogg", "trk_drop.ogg", "trk_elevator.ogg", "trk_ghost.ogg", "trk_howl.ogg",
 				   "trk_laserbeam.ogg", "trk_ninety.ogg", "trk_seadrone.ogg", "trk_snap.ogg", "trk_sprite.ogg");
-track = audio_create_stream(audioFile);
-audio_play_sound(track, 0, true);
+
+if (variable_global_exists("track")) {
+	audio_destroy_stream(global.track);
+}
+global.track = audio_create_stream(audioFile);
+audio_play_sound(global.track, 0, true);
