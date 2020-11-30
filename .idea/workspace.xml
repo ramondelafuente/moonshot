@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08b1cc52-614b-4078-bd0a-44d24aeb1f71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/objects/obj_alien_bullet/Collision_obj_alien.gml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/obj_alien_bullet/Collision_obj_player.gml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/obj_alien_bullet/Other_0.gml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/obj_alien_bullet/Step_0.gml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/obj_alien_bullet/obj_alien_bullet.yy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/objects/obj_alien_bullet/obj_bullet.yy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/alien_bullet_actions/alien_bullet_actions.gml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/alien_bullet_actions/alien_bullet_actions.yy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprites/Sprite6/081ea5e7-0421-460f-a3ac-73f1b34e47ed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprites/Sprite6/Sprite6.yy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sprites/Sprite6/layers/081ea5e7-0421-460f-a3ac-73f1b34e47ed/cae111c9-fc84-445b-affc-c74cdea7b0b7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Space Invaders.yyp" beforeDir="false" afterPath="$PROJECT_DIR$/Space Invaders.yyp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/ctrl_alien/Step_0.gml" beforeDir="false" afterPath="$PROJECT_DIR$/objects/ctrl_alien/Step_0.gml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/obj_alien/Step_0.gml" beforeDir="false" afterPath="$PROJECT_DIR$/objects/obj_alien/Step_0.gml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects/obj_alien/obj_alien.yy" beforeDir="false" afterPath="$PROJECT_DIR$/objects/obj_alien/obj_alien.yy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options/windows/options_windows.yy" beforeDir="false" afterPath="$PROJECT_DIR$/options/windows/options_windows.yy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rooms/GameScreen/RoomCreationCode.gml" beforeDir="false" afterPath="$PROJECT_DIR$/rooms/GameScreen/RoomCreationCode.gml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fnt_arial/fnt_arial.old.yy" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/fnt_arial/fnt_arial.old.yy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fnt_arial/fnt_arial.png" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/fnt_arial/fnt_arial.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fnt_arial/fnt_arial.yy" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/fnt_arial/fnt_arial.yy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +40,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606761991207</updated>
-      <workItem from="1606761992566" duration="157000" />
+      <workItem from="1606761992566" duration="750000" />
     </task>
     <servers />
   </component>
