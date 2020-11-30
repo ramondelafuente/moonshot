@@ -2,4 +2,4 @@ if (global.gameOver) {
 	return;
 }
 
-moveAlien(id);
+y += 5;
