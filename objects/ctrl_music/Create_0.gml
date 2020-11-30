@@ -1,0 +1,1 @@
+audio_play_sound(trk_elevator, 1000, true);

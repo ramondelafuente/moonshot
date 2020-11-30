@@ -11,6 +11,7 @@ function fireBullet() {
 
 function destroyBullet(bulletId) {
 	instance_destroy(bulletId);
+	
 	obj_player.bulletFired = false;
 
 	show_debug_message("bullet destroyed");
@@ -22,6 +23,7 @@ function test_bullet_actions() {
 test_describe("bullet_actions", function() {
 
 	test_before_each(function() {
+		global.isFrozen = 0;
 		instance_create_depth(0, 0, 0, obj_player);
 	});
 
