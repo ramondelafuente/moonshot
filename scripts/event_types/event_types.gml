@@ -1,10 +1,25 @@
 enum eventTypes {
-	BulletHitEvent = 1
+	BulletHitEvent = 1,
+	AlienIsDestroyedEvent = 2,
+	GameEndEvent = 3,
+	GameWasFrozen = 4
+}
+
+function AlienIsDestroyedEvent() constructor {
+	name = eventTypes.AlienIsDestroyedEvent;
+}
+
+function GameEndEvent() constructor {
+	name = eventTypes.GameEndEvent;
 }
 
 function BulletHitEvent(_bulletId) constructor {
 	name = eventTypes.BulletHitEvent;
 	bulletId = _bulletId;
+}
+
+function GameWasFrozen() constructor {
+	name = eventTypes.GameWasFrozen;
 }
 
 #region UnitTests
