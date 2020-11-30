@@ -1,5 +1,5 @@
 function fireBullet() {
-	if (global.gameOver) {
+	if (global.isFrozen) {
 		return;
 	}
 

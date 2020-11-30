@@ -5,6 +5,7 @@ global.alienSteps = 0;
 global.adjustedHeightStep = 32;
 global.gameOver = 0;
 global.gamePaused = 0;
+global.isFrozen = 0;
 global.numberOfAliensFireingBack = 3;
 global.numberOfAliensAreFiringBack = 0;
 
