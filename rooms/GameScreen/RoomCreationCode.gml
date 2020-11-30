@@ -5,7 +5,9 @@ global.alienSteps = 0;
 global.adjustedHeightStep = 32;
 global.gameOver = 0;
 global.gamePaused = 0;
+global.numberOfAliensFireingBack = 3;
+global.numberOfAliensAreFiringBack = 0;
 
-generateAliens(192, 64, 5, 11);
+generateAliens(192, 64, 1, 6);
 
 generatePlayer(3);
