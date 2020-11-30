@@ -8,7 +8,7 @@ global.gamePaused = 0;
 global.numberOfAliensFireingBack = 3;
 global.numberOfAliensAreFiringBack = 0;
 
-generateAliens(192, 64, 1, 6);
+generateAliens(192, 64, 5, 11);
 
 generatePlayer(3);
 randomize();
