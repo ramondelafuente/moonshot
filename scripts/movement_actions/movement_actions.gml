@@ -2,21 +2,23 @@ function moveAlien(alien) {
 	if (global.gameOver) {
 		return;
 	}
-
+	
 	// change movement direction
 	if (global.movementDirection == "left") {
-		alien.x -= global.movementSpeed;
 		
-		// check if left side is hit
-		if (alien.x <0) {		
+		// check if left side will be hit
+		if (alien.x - global.movementSpeed <= 0) {
 			global.movementDirection = "right";
+		} else {
+			alien.x -= global.movementSpeed;
 		}
-	} else {		
-		alien.x += global.movementSpeed;
-		
+
+	} else {
 		// check if right side is hit
-		if ((alien.x + alien.sprite_width) > window_get_width()) {
+		if ((alien.x + alien.sprite_width + global.movementSpeed) >= room_width) {
 			global.movementDirection = "left";
+		} else {
+			alien.x += global.movementSpeed;
 		}
 	}
 	
